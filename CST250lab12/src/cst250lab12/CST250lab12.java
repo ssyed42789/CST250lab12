@@ -9,9 +9,9 @@ import java.util.Scanner;
  
 
 public class CST250lab12 {
-    public static final String SOURCE_PEG = "Source";
-    public static final String TARGET_PEG = "Target";
-    public static final String SPARE_PEG = "Spare";
+    private static  String SOURCE_PEG = "Source";
+    private static  String TARGET_PEG = "Target";
+    private static  String SPARE_PEG = "Spare";
  
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
